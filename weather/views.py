@@ -7,8 +7,8 @@ from pyowm.owm import OWM
 
 
 def index(request):
-    appid = 'f7acec38a465338815dfedfbd0ceee12'
-    url = 'https://api.openweathermap.org/data/2.5/weather?q={}&units=metric&appid=' + appid
+    owm = 'f7acec38a465338815dfedfbd0ceee12'
+    url = 'https://api.openweathermap.org/data/2.5/weather?q={}&units=metric&appid=' + owm
 
 
     if request.method == "POST":
