@@ -35,7 +35,6 @@ pycparser==2.20
 pyee==8.1.0
 pyelftools==0.27
 pyflakes==2.2.0
-pyowm==3.1.1
 pyparsing==2.4.7
 pyppeteer==0.2.5
 pyquery==1.4.3
