@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'weather',
+    'crispy_forms'
 ]
 
 MIDDLEWARE = [
@@ -122,3 +123,6 @@ USE_TZ = True
 STATIC_URL = '/static/'
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 STATICFILES_DIRS = [(os.path.join(BASE_DIR, 'static'))]
+
+CRISPY_TEMPLATE_PACK = 'bootstrap4'
+django_heroku.settings(locals())
